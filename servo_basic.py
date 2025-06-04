@@ -4,7 +4,7 @@ import time
 pwm = Adafruit_PCA9685.PCA9685()
 pwm.set_pwm_freq(50)  # 50Hz
 
-while True:
+for _ in range(3):
   pwm.set_pwm(0,0,300)
   time.sleep(1)
   pwm.set_pwm(0,0,400)
