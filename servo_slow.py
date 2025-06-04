@@ -1,4 +1,4 @@
-import Adafruit_PA9685
+import Adafruit_PCA9685
 import time
 
 pwm = Adafruit_PCA9685.PCA9685()
