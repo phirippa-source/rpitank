@@ -25,6 +25,6 @@ def measure_dist():
   return round( 340 * duration / 2, 2 )
 
 
-for i in range(220):
+for i in range(20):
   print(measure_dist(), '[m]')
   time.sleep(1)
