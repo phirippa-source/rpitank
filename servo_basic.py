@@ -1,3 +1,6 @@
+# adafruit_pca9685 모듈 설치
+# bullseye인 경우, $ pip install adafruit_pca9685
+
 import Adafruit_PCA9685
 import time
 
