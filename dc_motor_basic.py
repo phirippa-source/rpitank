@@ -8,7 +8,7 @@ Motor_A_Pin2  = 18  # IN4 of L298P
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
-GPIO.setup(Moter_A_EN, GPIO.OUT)
+GPIO.setup(Motor_A_EN, GPIO.OUT)
 GPIO.setup(Motor_A_Pin1, GPIO.OUT)
 GPIO.setup(Motor_A_Pin2, GPIO.OUT)
 
