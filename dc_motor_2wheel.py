@@ -15,7 +15,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(Motor_A_EN,   GPIO.OUT)
 GPIO.setup(Motor_A_Pin1, GPIO.OUT)
 GPIO.setup(Motor_A_Pin2, GPIO.OUT)
-GPIO.setup(Moter_B_EN,   GPIO.OUT)
+GPIO.setup(Motor_B_EN,   GPIO.OUT)
 GPIO.setup(Motor_B_Pin1, GPIO.OUT)
 GPIO.setup(Motor_B_Pin2, GPIO.OUT)
 
